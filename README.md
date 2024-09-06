@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+
 Скачайте проект
 git clone https://github.com/Dalgat-98/calculator.git
 
@@ -16,7 +16,7 @@ npm run dev
 
 Запустите тесты
 npm test
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

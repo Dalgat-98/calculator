@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { ButtonList } from "../shared/button-list";
 import useStore from "../../store/store";
-import evaluateExpression from "../../utilities/performing-operations";
+import performingOperations from "../../utilities/performing-operations";
 
 let listMathOperator = ["+", "-", "*", "/", "%", "=", ""];
 
@@ -82,7 +82,7 @@ export const CalculatePanel: React.FC = () => {
       let res = mathematicalExpression + mathematicalResult;
       setMathematicalExpression(res + "=");
       setMathematicalResult(
-        evaluateExpression(mathematicalExpression + mathematicalResult) + ""
+        performingOperations(mathematicalExpression + mathematicalResult) + ""
       );
     }
   };
